@@ -3,10 +3,12 @@
 int main() {
     int tk = 0;
     scanf("%d", &tk);
-    if(tk > 0) {
+    if(tk >= 100) {
         printf("burger khabo\n");
+    }else if (tk >= 50){
+        printf("fuchka khabo\n");
     }else{
-        printf("burger khabo na\n");
+        printf("kuchu khabo na\n");
     }
     return 0;
 }
