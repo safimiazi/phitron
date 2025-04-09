@@ -2,9 +2,15 @@
 
 int main()
 {
-    for (int i = 1; i <= 10; i +=1)
+    int num = 0;
+    scanf("%d", &num);
+    int sum = 0;
+    for (int i = 1; i <= num; i++)
     {
-        printf("this is the number: %d\n", i);
+
+        printf("%d ", i);
+        sum += i;
     }
+    printf("sum is = : %d\n", sum);
     return 0;
 }
