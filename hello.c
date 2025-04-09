@@ -1,17 +1,12 @@
 #include <stdio.h>
-int main() {
-int a = 5;
-int b= 10;
-int sum = a + b;
-printf("The sum = %d\n", sum);
-int substract = a - b;
-printf("the substract = %d\n", substract);
-int multiply = a * b;
-printf("the multiply = %d\n", multiply);
 
-float divide = a / b;
-printf("the divide = %f\n", divide);
-int mod = a % b;
-printf("the mod = %d\n", mod);
-return 0;
+int main() {
+    int tk = 0;
+    scanf("%d", &tk);
+    if(tk > 0) {
+        printf("burger khabo\n");
+    }else{
+        printf("burger khabo na\n");
+    }
+    return 0;
 }
