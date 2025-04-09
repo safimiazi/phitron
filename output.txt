@@ -1,1 +1,10 @@
-burger khabo
+this is the number: 1
+this is the number: 2
+this is the number: 3
+this is the number: 4
+this is the number: 5
+this is the number: 6
+this is the number: 7
+this is the number: 8
+this is the number: 9
+this is the number: 10
