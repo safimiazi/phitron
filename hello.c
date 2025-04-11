@@ -1,16 +1,21 @@
 #include <stdio.h>
-
 int main()
 {
-    int num = 0;
-    scanf("%d", &num);
-    int sum = 0;
-    for (int i = 1; i <= num; i++)
-    {
+    int N;
 
-        printf("%d ", i);
-        sum += i;
+    scanf("%d", &N);
+    if (N > 1000)
+    {
+        printf("I will buy Punjabi\n");
+        if (N - 1000 >= 500)
+        {
+            printf("I will buy new shoes\n");
+            printf("Alisa will buy new shoes\n");
+        }
     }
-    printf("sum is = : %d\n", sum);
+    else
+    {
+        printf("Bad luck!\n");
+    }
     return 0;
 }
