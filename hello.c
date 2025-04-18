@@ -1,18 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
 
-    int pass;
-    while (1)
-    {
-        scanf("%d", &pass); // fixed line
-
-        if(pass == 1999){
-            printf("Correct\n");
-            break;
-        } else {
-            printf("Wrong\n");
-        }
-    }
-
-    return 0;
+ 
 }
