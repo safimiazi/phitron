@@ -1,17 +1,33 @@
 #include <stdio.h>
 
-int main() {
-    int N;
-    scanf("%d", &N);  // Read N first
-
-    int A[N];  // Now we can declare the array with size N
-for (int i = 0; i <=N; i++)
+int main()
 {
-    /* code */
-    
-}
+    // [1, 2, 3, 4, 5]
+    int n;
+    scanf("%d", &n);
+    int a[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
 
-  
+    int x = 0;
+    int y = n - 1;
+    while (x < y)
+    {
+
+        /* code */
+        int tmp = a[x];
+        a[x] = a[y];
+        a[y] = tmp;
+        x++;
+        y--;
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", a[i]);
+    }
 
     return 0;
 }
